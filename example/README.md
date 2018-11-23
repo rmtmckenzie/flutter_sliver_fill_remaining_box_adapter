@@ -1,8 +1,27 @@
 # Sliver Fill Remaining Box Adapter Example
 
-Demonstrates how to use the sliver_fill_remaining_box_adapter plugin.
+The example code demonstrates how to use the sliver_fill_remaining_box_adapter plugin.
 
-## Getting Started
+```dart
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+CustomScrollView(
+  slivers: <Widget>[
+    /*<other slivers>,*/
+    SliverFillRemainingBoxAdapter(
+      child: Container(
+        color: Colors.black,
+        alignment: Alignment.bottomCenter,
+        child: Container(
+          height: 200,
+          alignment: Alignment.center,
+          child: Text(
+            "This is filling the remaining or using\nits child's height if no remaining.",
+            style: TextStyle(color: Colors.white),
+            textAlign: TextAlign.center,
+          ),
+        ),
+      ),
+    ),
+  ],
+);
+```
