@@ -1,10 +1,31 @@
-# sliver_fill_remaining_box_adapter
+# Sliver Fill Remaining Box Adapter
 
-A new flutter plugin project.
+![pub package][version_badge]
 
-## Getting Started
+A flutter package providng SliverFillRemainingBoxAdapter, a sliver that fills the remaining space 
+or shows its child, whichever is larger.
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+This is essentially a combination of SliverFillRemaining, which sizes its child to the remaining
+space even if the child wants to be larger; and SliverToBoxAdapter, which is a sliver which sizes
+itself to its child.
 
-For help on editing plugin code, view the [documentation](https://flutter.io/developing-packages/#edit-plugin-package).
+This looks something like this:
+
+Size by Child  | Filling remaining a bit | Filling entire viewport
+:----:|:-----:|:----:
+![Screenshot showing sized by child height](readme_images/sc_childheight.png) | ![Screenshot showing expanded slightly](readme_images/sc_remainsome.png) | ![Screenshot showing expanded over entire screen](readme_images/sc_remainmid.png)
+
+
+## Usage
+
+The SliverFillRemainingBoxAdapter can be used in a similar way to other slivers, particularly
+SliverBoxAdapter. It hasn't been tested with ShrinkWrap set to true, and shouldn't be expected
+to be have well in that scenario. It also hasn't been tested when it isn't the last item in
+the list, or when there multiple SliverFillRemainingBoxAdapter instances.
+
+If you have any problems please let me know by opening an issue! As this is just a side-project,
+I can't promise to be very quick to respond but I'll do my best.
+
+Anyone willing to make contributions are very welcome to submit PRs.
+
+[version_badge]: https://img.shields.io/pub/v/sliver_fill_remaining_box_adapter.svg

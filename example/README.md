@@ -1,4 +1,4 @@
-# sliver_fill_remaining_box_adapter_example
+# Sliver Fill Remaining Box Adapter Example
 
 Demonstrates how to use the sliver_fill_remaining_box_adapter plugin.
 
