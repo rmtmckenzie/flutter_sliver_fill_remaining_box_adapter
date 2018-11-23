@@ -13,7 +13,7 @@ This looks something like this:
 
 Size by Child  | Filling remaining a bit | Filling entire viewport
 :----:|:-----:|:----:
-![Screenshot showing sized by child height](readme_images/sc_childheight.png) | ![Screenshot showing expanded slightly](readme_images/sc_remainsome.png) | ![Screenshot showing expanded over entire screen](readme_images/sc_remainmid.png)
+![Screenshot showing sized by child height](readme_images/sc_childheight.png) | ![Screenshot showing expanded slightly](readme_images/sc_remainmid.png) | ![Screenshot showing expanded over entire screen](readme_images/sc_remainall.png)
 
 
 ## Usage

@@ -1,3 +1,7 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* First push of plugin.
+
+## 0.1.0
+
+* Fix readme
